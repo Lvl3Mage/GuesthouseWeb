@@ -9,6 +9,59 @@
 </head>
 
 <body>
-	<header>
-		Header
+	<header class="bg-gradient-to-b from-[rgba(24,28,62,0.10)] via-[#9D9EA6] to-[rgba(99,99,105,0.28)] backdrop-blur-md font-playfairSC text-white z-10 w-full sticky top-0">
+		<div class="container px-3 mx-auto">
+			<div class="flex items-center justify-between py-2.5 gap-12 lg:gap-4 h-[120px]">
+				<div class="h-full flex-0 flex justify-center align-center">
+					<img src="../assets/images/logo.svg" alt="" class="">
+				</div>
+				<div class="flex-1 flex items-center justify-start gap-4 drop-shadow-[0_4px_4px_#0004] text-center lg:hidden">
+					<a href="">Nossa Conceito</a>
+					<a href="">Recanto dos Passeros</a>
+					<a href="">Alquimia</a>
+					<a href="">Espaço Zen</a>
+					<a href="">Sobre nós</a>
+				</div>
+				<div class="flex-0 flex items-center justify-between">
+					<div class="flex items-center text-xl gap-5 sm:gap-3">
+						<a href="">
+							<i class="fa-solid fa-circle"></i>
+						</a>
+						<a href="">
+							<i class="fa-solid fa-circle"></i>
+						</a>
+						<a class="">
+							<i class="fa-brands fa-whatsapp"></i>
+						</a>
+						<a class=" sm:hidden">
+							<i class="fa-brands fa-telegram"></i>
+						</a>
+						<a class=" sm:hidden">
+							<i class="fa-solid fa-envelope"></i>
+						</a>
+						<div class="text-base flex items-center group/languages cursor-pointer border rounded-md border-white px-2.5" tabindex="-1">
+							<div class="pr-1 relative">
+								BR
+								<div class="opacity-0 group-focus/languages:opacity-100 transition-all top-[calc(100%+4px)] shadow-md absolute -left-1 -right-1 h-auto flex flex-col justify-center z-10 bg-gray-400  border rounded-md border-white px-2.5">
+									<a class="flex justify-center py-1">
+										BR
+									</a>
+									<a class="flex justify-center py-1">
+										RU
+									</a>
+								</div>
+							</div>
+							<i class="fa-solid fa-angle-down text-sm"></i>
+							
+						</div>
+					</div>
+				</div>
+				<div class="group/burger relative h-[30px] w-[35px] flex-col justify-between hidden lg:flex cursor-pointer">
+					<div class="bg-white h-[4px] w-full transition duration-300 rounded-sm group-[.active]/burger:translate-y-[calc(14px)] group-[.active]/burger:rotate-[135deg]"></div>
+					<div class="bg-white h-[4px] w-full transition duration-300 rounded-sm group-[.active]/burger:opacity-0"></div>
+					<div class="bg-white h-[4px] w-full transition duration-300 rounded-sm group-[.active]/burger:translate-y-[calc(-14px)] group-[.active]/burger:rotate-[-135deg]"></div>
+				</div>
+			</div>
+			
+		</div>
 	</header>

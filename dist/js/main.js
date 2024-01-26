@@ -1,4 +1,5 @@
 /******/ (() => { // webpackBootstrap
+/******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
 /***/ "./src/index.js":
@@ -7,7 +8,6 @@
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js");
 /* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_0__);
@@ -21,7 +21,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _fortawesome_fontawesome_free_js_brands__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @fortawesome/fontawesome-free/js/brands */ "./node_modules/@fortawesome/fontawesome-free/js/brands.js");
 /* harmony import */ var _fortawesome_fontawesome_free_js_brands__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_fortawesome_fontawesome_free_js_brands__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var _assets_scss_main_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./assets/scss/main.scss */ "./src/assets/scss/main.scss");
-/* harmony import */ var _assets_scss_main_scss__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_assets_scss_main_scss__WEBPACK_IMPORTED_MODULE_6__);
 
 // JS
 
@@ -43,7 +42,6 @@ __webpack_require__.r(__webpack_exports__);
   \****************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ ibg)
@@ -68,7 +66,6 @@ function ibg() {
   \******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   CloseModal: () => (/* binding */ CloseModal),
@@ -146,7 +143,6 @@ HTML
   \************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _libs_ibg_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./libs/ibg.js */ "./src/js/libs/ibg.js");
 /* harmony import */ var slick_carousel__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! slick-carousel */ "./node_modules/slick-carousel/slick/slick.js");
@@ -194,9 +190,11 @@ $(document).ready(function () {
 /*!***********************************!*\
   !*** ./src/assets/scss/main.scss ***!
   \***********************************/
-/***/ (() => {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-throw new Error("Module build failed (from ./node_modules/mini-css-extract-plugin/dist/loader.js):\nHookWebpackError: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):\nSassError: Can't find stylesheet to import.\n  ╷\n3 │ @import './utils/mixins';\r\n  │         ^^^^^^^^^^^^^^^^\n  ╵\n  src\\assets\\scss\\main.scss 3:9  root stylesheet\n    at tryRunOrWebpackError (C:\\Projects\\GuesthouseWeb\\node_modules\\webpack\\lib\\HookWebpackError.js:88:9)\n    at __webpack_require_module__ (C:\\Projects\\GuesthouseWeb\\node_modules\\webpack\\lib\\Compilation.js:5067:12)\n    at __webpack_require__ (C:\\Projects\\GuesthouseWeb\\node_modules\\webpack\\lib\\Compilation.js:5024:18)\n    at C:\\Projects\\GuesthouseWeb\\node_modules\\webpack\\lib\\Compilation.js:5095:20\n    at symbolIterator (C:\\Projects\\GuesthouseWeb\\node_modules\\neo-async\\async.js:3485:9)\n    at done (C:\\Projects\\GuesthouseWeb\\node_modules\\neo-async\\async.js:3527:9)\n    at Hook.eval [as callAsync] (eval at create (C:\\Projects\\GuesthouseWeb\\node_modules\\tapable\\lib\\HookCodeFactory.js:33:10), <anonymous>:15:1)\n    at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (C:\\Projects\\GuesthouseWeb\\node_modules\\tapable\\lib\\Hook.js:18:14)\n    at C:\\Projects\\GuesthouseWeb\\node_modules\\webpack\\lib\\Compilation.js:5002:43\n    at symbolIterator (C:\\Projects\\GuesthouseWeb\\node_modules\\neo-async\\async.js:3482:9)\n-- inner error --\nError: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):\nSassError: Can't find stylesheet to import.\n  ╷\n3 │ @import './utils/mixins';\r\n  │         ^^^^^^^^^^^^^^^^\n  ╵\n  src\\assets\\scss\\main.scss 3:9  root stylesheet\n    at Object.<anonymous> (C:\\Projects\\GuesthouseWeb\\node_modules\\css-loader\\dist\\cjs.js!C:\\Projects\\GuesthouseWeb\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[1].use[2]!C:\\Projects\\GuesthouseWeb\\node_modules\\sass-loader\\dist\\cjs.js!C:\\Projects\\GuesthouseWeb\\src\\assets\\scss\\main.scss:1:7)\n    at C:\\Projects\\GuesthouseWeb\\node_modules\\webpack\\lib\\javascript\\JavascriptModulesPlugin.js:452:10\n    at Hook.eval [as call] (eval at create (C:\\Projects\\GuesthouseWeb\\node_modules\\tapable\\lib\\HookCodeFactory.js:19:10), <anonymous>:7:1)\n    at Hook.CALL_DELEGATE [as _call] (C:\\Projects\\GuesthouseWeb\\node_modules\\tapable\\lib\\Hook.js:14:14)\n    at C:\\Projects\\GuesthouseWeb\\node_modules\\webpack\\lib\\Compilation.js:5069:39\n    at tryRunOrWebpackError (C:\\Projects\\GuesthouseWeb\\node_modules\\webpack\\lib\\HookWebpackError.js:83:7)\n    at __webpack_require_module__ (C:\\Projects\\GuesthouseWeb\\node_modules\\webpack\\lib\\Compilation.js:5067:12)\n    at __webpack_require__ (C:\\Projects\\GuesthouseWeb\\node_modules\\webpack\\lib\\Compilation.js:5024:18)\n    at C:\\Projects\\GuesthouseWeb\\node_modules\\webpack\\lib\\Compilation.js:5095:20\n    at symbolIterator (C:\\Projects\\GuesthouseWeb\\node_modules\\neo-async\\async.js:3485:9)\n\nGenerated code for C:\\Projects\\GuesthouseWeb\\node_modules\\css-loader\\dist\\cjs.js!C:\\Projects\\GuesthouseWeb\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[1].use[2]!C:\\Projects\\GuesthouseWeb\\node_modules\\sass-loader\\dist\\cjs.js!C:\\Projects\\GuesthouseWeb\\src\\assets\\scss\\main.scss\n1 | throw new Error(\"Module build failed (from ./node_modules/sass-loader/dist/cjs.js):\\nSassError: Can't find stylesheet to import.\\n  ╷\\n3 │ @import './utils/mixins';\\r\\n  │         ^^^^^^^^^^^^^^^^\\n  ╵\\n  src\\\\assets\\\\scss\\\\main.scss 3:9  root stylesheet\");");
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
 
 /***/ })
 

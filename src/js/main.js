@@ -25,16 +25,3 @@ $(document).on("click","[data-click-selectable]", function(){
 });
 
 
-$(document).ready(function(){
-	$(".apartment-image-slider").each(function(){
-		let prev = $(this).siblings("[slider-left-arrow]");
-		let next = $(this).siblings("[slider-right-arrow]");
-		console.log(prev)
-		$(this).slick({
-			prevArrow: prev,
-			nextArrow: next,
-		});
-	});
-
-
-})

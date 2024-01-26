@@ -3,10 +3,9 @@ module.exports = {
   content: ["./src/html/*.html","./src/html/**/*.html"],
   theme: {
     fontFamily: {
-      'raleway': ['Raleway'],
       'playfair': ['PlayfairDisplay'],
       'playfairSC': ['PlayfairDisplaySC'],
-      'rum': ['Rum Raisin'],
+      'rum': ['RumRaisin'],
     },
     container: {
       center: true,
@@ -19,6 +18,10 @@ module.exports = {
       },
     },
     extend: {
+      dropShadow: {
+        '3xl': '0 4px 4px #0004',
+        'heavy': '4px 8px 8px #0009',
+      },
       colors: {
         // 'brown':"#623E2A",
         // 'beige':{

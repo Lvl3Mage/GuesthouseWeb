@@ -12,31 +12,31 @@
 	<header class="bg-gradient-to-b from-[rgba(24,28,62,0.10)] via-[#9D9EA6] to-[rgba(99,99,105,0.28)] backdrop-blur-md font-playfairSC text-white z-10 w-full sticky top-0">
 		<div class="container px-3 mx-auto">
 			<div class="flex items-center justify-between py-2.5 gap-12 lg:gap-4 h-[120px]">
-				<div class="h-full flex-0 flex justify-center align-center">
+				<a href="" class="h-full flex-0 flex justify-center align-center hover-pulse">
 					<img src="../assets/images/logo.svg" alt="" class="">
-				</div>
+				</a>
 				<div class="flex-1 flex items-center justify-start gap-4 drop-shadow-[0_4px_4px_#0004] text-center lg:hidden">
-					<a href="">Nossa Conceito</a>
-					<a href="">Recanto dos Passeros</a>
-					<a href="">Alquimia</a>
-					<a href="">Espaço Zen</a>
-					<a href="">Sobre nós</a>
+					<a class="hover-pulse" href="">Nossa Conceito</a>
+					<a class="hover-pulse" href="">Recanto dos Passeros</a>
+					<a class="hover-pulse" href="">Alquimia</a>
+					<a class="hover-pulse" href="">Espaço Zen</a>
+					<a class="hover-pulse" href="">Sobre nós</a>
 				</div>
 				<div class="flex-0 flex items-center justify-between">
 					<div class="flex items-center text-xl gap-5 sm:gap-3">
-						<a href="">
+						<a href="" class="hover-pulse">
 							<i class="fa-solid fa-circle"></i>
 						</a>
-						<a href="">
+						<a href="" class="hover-pulse">
 							<i class="fa-solid fa-circle"></i>
 						</a>
-						<a class="">
+						<a class="hover-pulse">
 							<i class="fa-brands fa-whatsapp"></i>
 						</a>
-						<a class=" sm:hidden">
+						<a class="hover-pulse sm:hidden">
 							<i class="fa-brands fa-telegram"></i>
 						</a>
-						<a class=" sm:hidden">
+						<a class="hover-pulse sm:hidden">
 							<i class="fa-solid fa-envelope"></i>
 						</a>
 						<div class="text-base flex items-center group/languages cursor-pointer border rounded-md border-white px-2.5" tabindex="-1">
@@ -57,9 +57,9 @@
 					</div>
 				</div>
 				<div class="group/burger relative h-[30px] w-[35px] flex-col justify-between hidden lg:flex cursor-pointer">
-					<div class="bg-white h-[4px] w-full transition duration-300 rounded-sm group-[.active]/burger:translate-y-[calc(14px)] group-[.active]/burger:rotate-[135deg]"></div>
-					<div class="bg-white h-[4px] w-full transition duration-300 rounded-sm group-[.active]/burger:opacity-0"></div>
-					<div class="bg-white h-[4px] w-full transition duration-300 rounded-sm group-[.active]/burger:translate-y-[calc(-14px)] group-[.active]/burger:rotate-[-135deg]"></div>
+					<div class="bg-white h-[4px] w-full transition duration-300 rounded-sm ease-out-wobble group-[:not(.active):hover]/burger:translate-y-[3px] group-[.active:hover]/burger:scale-x-75 group-[.active]/burger:translate-y-[calc(15px_-_2px)] group-[.active]/burger:rotate-[135deg]"></div>
+					<div class="bg-white h-[4px] w-full transition duration-300 rounded-sm ease-in-out group-[.active]/burger:opacity-0"></div>
+					<div class="bg-white h-[4px] w-full transition duration-300 rounded-sm ease-out-wobble group-[:not(.active):hover]/burger:translate-y-[-3px] group-[.active:hover]/burger:scale-x-75 group-[.active]/burger:translate-y-[calc(-15px_+_2px)] group-[.active]/burger:rotate-[-135deg]"></div>
 				</div>
 			</div>
 			

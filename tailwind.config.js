@@ -20,7 +20,13 @@ module.exports = {
     extend: {
       dropShadow: {
         '3xl': '0 4px 4px #0004',
-        'heavy': '4px 8px 8px #0009',
+        'heavy': '0 4px 8px #0009',
+      },
+      boxShadow: {
+        'inset-lg': 'inset 0 0 10px 4px rgb(0 0 0 / 0.3)',
+      },
+      transitionTimingFunction: {
+        'out-wobble': 'cubic-bezier(.65,1.77,.73,.86)',
       },
       colors: {
         // 'brown':"#623E2A",

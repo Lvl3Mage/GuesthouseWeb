@@ -26,4 +26,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components{
+	.hover-pulse{
+		@apply hover:drop-shadow ease-in-out duration-300 hover:scale-[0.95] transition;
+	}
+
+}
+
 

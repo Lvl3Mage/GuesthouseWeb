@@ -1823,11 +1823,20 @@ video {
   }
 }
 @media (max-width: 767px){
+  .md\:h-\[75px\]{
+    height: 75px;
+  }
+  .md\:w-\[75px\]{
+    width: 75px;
+  }
   .md\:max-w-md{
     max-width: 28rem;
   }
   .md\:basis-full{
     flex-basis: 100%;
+  }
+  .md\:pb-16{
+    padding-bottom: 4rem;
   }
 }
 @media (max-width: 639px){

@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/html/*.html","./src/html/**/*.html"],
+  content: ["./src/html/*.html","./src/html/**/*.html","./src/js/**/*.js"],
   theme: {
     fontFamily: {
       'playfair': ['PlayfairDisplay'],
@@ -29,6 +29,10 @@ module.exports = {
         'out-wobble': 'cubic-bezier(.65,1.77,.73,.86)',
       },
       colors: {
+        'gray': {
+          300: '#D1D0D3',
+          350: '#C3C2C6',
+        }
         // 'brown':"#623E2A",
         // 'beige':{
         //   DEFAULT:"#F4F1ED",
@@ -38,6 +42,9 @@ module.exports = {
         // 'cyan':'#2380BB',
         // 'blue':'#034EA2',
         // 'orange': "#FF914D",
+      },
+      aspectRatio: {
+        '3/2': '3 / 2',
       },
     },
     screens: {

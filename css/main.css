@@ -2239,6 +2239,9 @@ video {
   .sm\:ml-0{
     margin-left: 0px;
   }
+  .sm\:flex{
+    display: flex;
+  }
   .sm\:hidden{
     display: none;
   }

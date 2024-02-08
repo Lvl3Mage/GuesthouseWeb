@@ -23,6 +23,11 @@ $(document).on('mousedown touchstart', '.modal-bg, .modal-cross', function(event
 	var modal = $(this).closest(".modal");
 	modal.removeClass("modal-active");
 
+	//pause video
+	modal.find('iframe').each(function(){
+		$(this).attr("src", $(this).attr("src"));
+	});
+
 });
 $(document).on('mousedown touchstart', '.modal-window', function(event) {
 	event.stopPropagation();

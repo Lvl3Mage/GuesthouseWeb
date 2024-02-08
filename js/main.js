@@ -93,6 +93,11 @@ $(document).on('mousedown touchstart', '.modal-bg, .modal-cross', function (even
   $("body").css("overflow", "visible");
   var modal = $(this).closest(".modal");
   modal.removeClass("modal-active");
+
+  //pause video
+  modal.find('iframe').each(function () {
+    $(this).attr("src", $(this).attr("src"));
+  });
 });
 $(document).on('mousedown touchstart', '.modal-window', function (event) {
   event.stopPropagation();
@@ -222,6 +227,13 @@ $(document).ready(function () {
       asNavFor: main
     });
   });
+});
+$(document).on("click", ".burger", function () {
+  $("#mob-menu").toggleClass('active');
+  $(this).toggleClass('active');
+  let state = !($("body").attr("locked") === 'true');
+  $("body").attr("locked", state);
+  $("body").css("overflow", state ? "hidden" : "auto");
 });
 
 /***/ }),

@@ -9,7 +9,8 @@
 <script defer src="js/vendors-node_modules_fortawesome_fontawesome-free_js_brands_js-node_modules_fortawesome_fonta-a595c5.js"></script><script defer src="js/main.js"></script><link href="css/main.css" rel="stylesheet"></head>
 
 <body>
-	<header class="bg-gradient-to-b from-[rgba(24,28,62,0.10)] via-[#9D9EA6] to-[rgba(99,99,105,0.28)] backdrop-blur-md font-playfairSC text-white z-10 w-full sticky top-0">
+
+	<header class="bg-gradient-to-b from-[rgba(24,28,62,0.10)] via-[#9D9EA6] to-[rgba(99,99,105,0.28)] backdrop-blur-md font-playfairSC text-white z-50 w-full sticky top-0">
 		<div class="container px-3 mx-auto">
 			<div class="flex items-center justify-between py-2.5 gap-12 lg:gap-4 h-[120px]">
 				<a href="" class="h-full flex-0 flex justify-center align-center hover-pulse">
@@ -25,10 +26,10 @@
 				<div class="flex-0 flex items-center justify-between">
 					<div class="flex items-center text-xl gap-5 sm:gap-3">
 						<a href="" class="hover-pulse">
-							<i class="fa-solid fa-circle"></i>
+							<img src="assets/fonts/booking.svg" alt="" class="w-5">
 						</a>
 						<a href="" class="hover-pulse">
-							<i class="fa-solid fa-circle"></i>
+							<img src="assets/fonts/airbnb.svg" alt="" class="w-5">
 						</a>
 						<a class="hover-pulse">
 							<i class="fa-brands fa-whatsapp"></i>
@@ -42,7 +43,7 @@
 						<div class="text-base flex items-center group/languages cursor-pointer border rounded-md border-white px-2.5" tabindex="-1">
 							<div class="pr-1 relative">
 								BR
-								<div class="opacity-0 group-focus/languages:opacity-100 transition-all top-[calc(100%+4px)] shadow-md absolute -left-1 -right-1 h-auto flex flex-col justify-center z-10 bg-gray-400  border rounded-md border-white px-2.5">
+								<div class="opacity-0 group-focus/languages:opacity-100 transition-all top-[calc(100%+4px)] shadow-md absolute -left-1 -right-1 h-auto flex flex-col justify-center z-50 bg-gray-400  border rounded-md border-white px-2.5">
 									<a class="flex justify-center py-1">
 										BR
 									</a>
@@ -56,7 +57,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="group/burger relative h-[30px] w-[35px] flex-col justify-between hidden lg:flex cursor-pointer">
+				<div class="burger group/burger relative h-[30px] w-[35px] flex-col justify-between hidden lg:flex cursor-pointer">
 					<div class="bg-white h-[4px] w-full transition duration-300 rounded-sm ease-out-wobble group-[:not(.active):hover]/burger:translate-y-[3px] group-[.active:hover]/burger:scale-x-75 group-[.active]/burger:translate-y-[calc(15px_-_2px)] group-[.active]/burger:rotate-[135deg]"></div>
 					<div class="bg-white h-[4px] w-full transition duration-300 rounded-sm ease-in-out group-[.active]/burger:opacity-0"></div>
 					<div class="bg-white h-[4px] w-full transition duration-300 rounded-sm ease-out-wobble group-[:not(.active):hover]/burger:translate-y-[-3px] group-[.active:hover]/burger:scale-x-75 group-[.active]/burger:translate-y-[calc(-15px_+_2px)] group-[.active]/burger:rotate-[-135deg]"></div>
@@ -65,6 +66,39 @@
 			
 		</div>
 	</header>
+	<div id="mob-menu" class="fixed top-full h-[calc(100%_-_120px)] bg-gray-300/50 backdrop-blur-lg w-full z-50 [&.active]:-translate-y-full transition duration-500 ease-in-out overflow-y-auto">
+		<div class="px-6">
+			<ul class="">
+				<li class="relative after:absolute after:-bottom-[34px] after:w-16 after:h-0.5 after:bg-gray-100 after:m-auto after:left-0 after:right-0 last:after:hidden text-center px-8 font bg-gray-100/5 py-2 rounded-xl rum text-4xl border-r border-l border-gray-100 my-16">
+					<a href="" class=" hover-pulse block">Nossa Conceito</a>
+				</li>
+				
+				<li class="relative after:absolute after:-bottom-[34px] after:w-16 after:h-0.5 after:bg-gray-100 after:m-auto after:left-0 after:right-0 last:after:hidden text-center px-8 font bg-gray-100/5 py-2 rounded-xl rum text-4xl border-r border-l border-gray-100 my-16">
+					<a href="" class=" hover-pulse block">Recanto dos Passeros</a>
+				</li>
+				<li class="relative after:absolute after:-bottom-[34px] after:w-16 after:h-0.5 after:bg-gray-100 after:m-auto after:left-0 after:right-0 last:after:hidden text-center px-8 font bg-gray-100/5 py-2 rounded-xl rum text-4xl border-r border-l border-gray-100 my-16">
+					<a href="" class=" hover-pulse block">Alquimia</a>
+				</li>
+				<li class="relative after:absolute after:-bottom-[34px] after:w-16 after:h-0.5 after:bg-gray-100 after:m-auto after:left-0 after:right-0 last:after:hidden text-center px-8 font bg-gray-100/5 py-2 rounded-xl rum text-4xl border-r border-l border-gray-100 my-16">
+					<a href="" class=" hover-pulse block">Espaço Zen</a>
+				</li>
+				<li class="relative after:absolute after:-bottom-[34px] after:w-16 after:h-0.5 after:bg-gray-100 after:m-auto after:left-0 after:right-0 last:after:hidden text-center px-8 font bg-gray-100/5 py-2 rounded-xl rum text-4xl border-r border-l border-gray-100 my-16">
+					<a href="" class=" hover-pulse block">Sobre nós</a>
+				</li>
+			</ul>
+			<div class="flex justify-center gap-6 items-center text-white text-2xl pb-8">
+				
+				<a class="hover-pulse">
+					<i class="fa-brands fa-telegram"></i>
+				</a>
+				<a class="hover-pulse">
+					<i class="fa-solid fa-envelope"></i>
+				</a>
+			</div>
+		</div>
+	</div>
+	<!-- relative after:absolute after:h-0.5 after:w-8 after:rounded after:top-0 after:bottom-0 after:m-auto after:bg-gray-100 after:left-full after:ml-4
+					before:absolute before:h-0.5 before:w-8 before:rounded before:top-0 before:bottom-0 before:m-auto before:bg-gray-100 before:right-full before:mr-4 -->
 
 <section class="">
 	<div class="relative">

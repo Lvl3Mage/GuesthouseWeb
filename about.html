@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Title</title>
+<script defer src="js/vendors-node_modules_fortawesome_fontawesome-free_js_brands_js-node_modules_fortawesome_fonta-a595c5.js"></script><script defer src="js/main.js"></script><link href="css/main.css" rel="stylesheet"></head>
+
+<body>
+
+	<header class="bg-gradient-to-b from-[rgba(24,28,62,0.10)] via-[#9D9EA6] to-[rgba(99,99,105,0.28)] backdrop-blur-md font-playfairSC text-white z-50 w-full sticky top-0">
+		<div class="container px-3 mx-auto">
+			<div class="flex items-center justify-between py-2.5 gap-12 lg:gap-4 h-[120px]">
+				<a href="" class="h-full flex-0 flex justify-center align-center hover-pulse">
+					<img src="assets/fonts/logo.svg" alt="" class="mix-blend-screen">
+				</a>
+				<div class="flex-1 flex items-center justify-start gap-4 drop-shadow-[0_4px_4px_#0004] text-center lg:hidden">
+					<a class="hover-pulse" href="">Nossa Conceito</a>
+					<a class="hover-pulse" href="">Recanto dos Passeros</a>
+					<a class="hover-pulse" href="">Alquimia</a>
+					<a class="hover-pulse" href="">Espaço Zen</a>
+					<a class="hover-pulse" href="">Sobre nós</a>
+				</div>
+				<div class="flex-0 flex items-center justify-between">
+					<div class="flex items-center text-xl gap-5 sm:gap-3">
+						<a href="" class="hover-pulse">
+							<img src="assets/fonts/booking.svg" alt="" class="w-5">
+						</a>
+						<a href="" class="hover-pulse">
+							<img src="assets/fonts/airbnb.svg" alt="" class="w-5">
+						</a>
+						<a class="hover-pulse">
+							<i class="fa-brands fa-whatsapp"></i>
+						</a>
+						<a class="hover-pulse sm:hidden">
+							<i class="fa-brands fa-telegram"></i>
+						</a>
+						<a class="hover-pulse sm:hidden">
+							<i class="fa-solid fa-envelope"></i>
+						</a>
+						<div class="text-base flex items-center group/languages cursor-pointer border rounded-md border-white px-2.5" tabindex="-1">
+							<div class="pr-1 relative">
+								BR
+								<div class="opacity-0 group-focus/languages:opacity-100 transition-all top-[calc(100%+4px)] shadow-md absolute -left-1 -right-1 h-auto flex flex-col justify-center z-50 bg-gray-400  border rounded-md border-white px-2.5">
+									<a class="flex justify-center py-1">
+										BR
+									</a>
+									<a class="flex justify-center py-1">
+										RU
+									</a>
+								</div>
+							</div>
+							<i class="fa-solid fa-angle-down text-sm"></i>
+							
+						</div>
+					</div>
+				</div>
+				<div class="burger group/burger relative h-[30px] w-[35px] flex-col justify-between hidden lg:flex cursor-pointer">
+					<div class="bg-white h-[4px] w-full transition duration-300 rounded-sm ease-out-wobble group-[:not(.active):hover]/burger:translate-y-[3px] group-[.active:hover]/burger:scale-x-75 group-[.active]/burger:translate-y-[calc(15px_-_2px)] group-[.active]/burger:rotate-[135deg]"></div>
+					<div class="bg-white h-[4px] w-full transition duration-300 rounded-sm ease-in-out group-[.active]/burger:opacity-0"></div>
+					<div class="bg-white h-[4px] w-full transition duration-300 rounded-sm ease-out-wobble group-[:not(.active):hover]/burger:translate-y-[-3px] group-[.active:hover]/burger:scale-x-75 group-[.active]/burger:translate-y-[calc(-15px_+_2px)] group-[.active]/burger:rotate-[-135deg]"></div>
+				</div>
+			</div>
+			
+		</div>
+	</header>
+	<div id="mob-menu" class="fixed top-full h-[calc(100%_-_120px)] bg-gray-300/50 backdrop-blur-lg w-full z-50 [&.active]:-translate-y-full transition duration-500 ease-in-out overflow-y-auto">
+		<div class="px-6">
+			<ul class="">
+				<li class="relative after:absolute after:-bottom-[34px] after:w-16 after:h-0.5 after:bg-gray-100 after:m-auto after:left-0 after:right-0 last:after:hidden text-center px-8 font bg-gray-100/5 py-2 rounded-xl rum text-4xl border-r border-l border-gray-100 my-16">
+					<a href="" class=" hover-pulse block">Nossa Conceito</a>
+				</li>
+				
+				<li class="relative after:absolute after:-bottom-[34px] after:w-16 after:h-0.5 after:bg-gray-100 after:m-auto after:left-0 after:right-0 last:after:hidden text-center px-8 font bg-gray-100/5 py-2 rounded-xl rum text-4xl border-r border-l border-gray-100 my-16">
+					<a href="" class=" hover-pulse block">Recanto dos Passeros</a>
+				</li>
+				<li class="relative after:absolute after:-bottom-[34px] after:w-16 after:h-0.5 after:bg-gray-100 after:m-auto after:left-0 after:right-0 last:after:hidden text-center px-8 font bg-gray-100/5 py-2 rounded-xl rum text-4xl border-r border-l border-gray-100 my-16">
+					<a href="" class=" hover-pulse block">Alquimia</a>
+				</li>
+				<li class="relative after:absolute after:-bottom-[34px] after:w-16 after:h-0.5 after:bg-gray-100 after:m-auto after:left-0 after:right-0 last:after:hidden text-center px-8 font bg-gray-100/5 py-2 rounded-xl rum text-4xl border-r border-l border-gray-100 my-16">
+					<a href="" class=" hover-pulse block">Espaço Zen</a>
+				</li>
+				<li class="relative after:absolute after:-bottom-[34px] after:w-16 after:h-0.5 after:bg-gray-100 after:m-auto after:left-0 after:right-0 last:after:hidden text-center px-8 font bg-gray-100/5 py-2 rounded-xl rum text-4xl border-r border-l border-gray-100 my-16">
+					<a href="" class=" hover-pulse block">Sobre nós</a>
+				</li>
+			</ul>
+			<div class="flex justify-center gap-6 items-center text-white text-2xl pb-8">
+				
+				<a class="hover-pulse">
+					<i class="fa-brands fa-telegram"></i>
+				</a>
+				<a class="hover-pulse">
+					<i class="fa-solid fa-envelope"></i>
+				</a>
+			</div>
+		</div>
+	</div>
+	<!-- relative after:absolute after:h-0.5 after:w-8 after:rounded after:top-0 after:bottom-0 after:m-auto after:bg-gray-100 after:left-full after:ml-4
+					before:absolute before:h-0.5 before:w-8 before:rounded before:top-0 before:bottom-0 before:m-auto before:bg-gray-100 before:right-full before:mr-4 -->
+<section>
+	<div class="relative border-b-[10px] border-zinc-400 mb-16 pt-6">
+		<div class="container text-center">
+			<h2 class="uppercase text-5xl sm:text-3xl font-rum text-white pb-6 ">Sobre Nós e Como Tudo Começou</h2>
+		</div>
+	</div>
+	<div class="container">
+		<div class="flex justify-center items-center gap-10 md:flex-wrap mb-10">
+			<div class="basis-1/3 md:basis-full flex justify-center items-center">
+				<img src="assets/img/woman.png" alt="" class="w-full max-w-sm rounded">
+			</div>
+			<div class="basis-2/3 md:basis-full">
+				Sou ucraniana-baiana, nascida em Odessa, Ucrânia, e naturalizada na Bahia. Meu nome, "Oksana", significa "uma boa anfitriã", e foi assim que descobri o prazer de receber pessoas e compartilhar o meu lar. Tenho paixão pela fotografia, arte, yoga e meditação. Exponho minhas imagens e quadros na casa, oferecendo práticas de yoga e meditações ativas quando estou no local. 
+				Adoro viajar e me considero uma anfitriã virtual. Falo fluentemente russo, português e inglês, além de ter conhecimentos básicos de espanhol e italiano.
+				Será um enorme prazer recebê-los no nosso pequeno paraíso na floresta, bem perto das praias!
+			</div>
+		</div>
+	</div>
+</section>
+<section>
+	
+	<div class="relative after:absolute after:h-2.5 after:bg-zinc-400 after:right-0 after:left-1/2 after:bottom-0 mb-16">
+		<div class="container relative">
+			<h2 class="uppercase text-3xl sm:text-xl font-bold font-playfairSC text-white pb-6 border-b-[10px] border-zinc-400 ml-[25%] sm:m-0">Nossa História</h2>
+		</div>
+	</div>
+	<div class="container">
+		<img src="assets/img/nature2.png" alt="" class="w-full min-w-0">
+	</div>
+	<div class="container mt-8">
+		<div class="uppercase font-playfairSC text-white text-3xl text-center mb-12">minha primeira casa</div>
+
+		<div class="">
+			Em 2008, tomei a decisão de deixar para trás a agitação da vila e fundei a minha primeira casa, que hoje se transformou na Hospedaria Recanto dos Pássaros. Sua localização única, entre as Reservas Sapiranga e Arua, oferece um cenário imerso na deslumbrante natureza da Mata Atlântica nativa com arvores gigantes, e apenas 3 km da Vila de Praia do Forte.  Aqui, a serenidade se entrelaça ao canto dos pássaros, à dança das árvores ao vento e à meditação proporcionada pela chuva nas folhas. A presença dos animais, a passagem ocasional de um bicho-preguiça, o pôr do sol que penetra na mata criam a atmosfera especial deste espaço. Visitantes se integram à natureza, respiram e meditam, relutando em partir.
+		</div>
+	</div>
+	<div class="container my-8">
+		<div class="uppercase font-playfairSC text-white text-3xl text-center mb-12">pousada para recarregar energias</div>
+
+		<div class="">
+			Decidi transformar minha casa em uma Hospedaria ZEN, compartilhando este lugar incrível com aqueles que buscam descanso verdadeiro, conexão com a natureza, paz, meditação e um tipo diferente de férias, tudo próximo das praias do Litoral Norte da Bahia.
+			Em 2022, reconhecendo o êxito da Hospedaria ZEN, Recanto dos Pássaros, decidimos criar a Alquimia Hospedaria, situada a apenas 200 metros do Recanto dos Pássaros, na mesma rua da Preguiça, no Loteamento Quintas do Castelo da Torre, em Praia do Forte, Bahia.
+			A Alquimia Hospedaria segue o mesmo conceito de Hospedaria ZEN, destacando-se pela conexão com a natureza, a paz, o silêncio e a beleza do local como atributos primordiais.
+		</div>
+	</div>
+</section>
+<section class="bg-gray-350 my-8 py-20">
+	<div class="text-5xl font-rum text-white container text-center">
+		``O verdadeiro sabor vai além dos temperos; ele reside na alma, transmitindo gostos, e na paixão que dá sabor à vida.``
+	</div>
+</section>
+<section class="my-8">
+	<div class="relative after:absolute after:h-2.5 after:bg-zinc-400 after:left-0 after:right-1/2 after:bottom-0 mb-16">
+		<div class="container relative">
+			<h2 class="uppercase text-5xl sm:text-3xl font-bold font-playfairSC text-white pb-6 border-b-[10px] border-zinc-400 mr-[25%] sm:m-0 text-right">NOSSOS CONTATOS</h2>
+		</div>
+	</div>
+
+	<div class="container">
+		<img src="assets/img/nature2.png" alt="" class="w-full min-w-0">
+	</div>
+	<div class="container mt-4">
+		<p class=" mb-2">
+			Nossa Equipe, entre 09:00 e16:00 ainda conta com
+		</p>
+		<p class=" mb-2">
+			Alaide - limpeza e organização, 75 98874738
+		</p>
+		<p class=" mb-2">
+			Iraildes -limpeza e organização, 71 996276008
+		</p>
+		<p class=" mb-2">
+			Alberto - jardim e manutenção, 71 996042874
+		</p>
+		<p class=" mb-2">
+			É um prazer recebê-los e servi-los. Valorizamos imensamente a presença de vocês, desde a carta de boas-vindas enviada por e-mail até o roteiro com fotos e apresentação no seu WhatsApp, além de cada mensagem deixada para vocês. Nossa equipe aprecia muito a oportunidade de ajudar, manter a casa perfumada e criar um ambiente saudável.
+		</p>
+		<p class=" mb-2">
+			Utilizamos sabonetes e amaciantes de alta qualidade para lavar roupas de cama e toalhas. Limpamos regularmente os cobertores e cuidamos meticulosamente dos utensílios da cozinha.
+		</p>
+		<div class="text-center mt-20">
+			<a href="" class="py-4 px-8 uppercase font-rum text-xl bg-zinc-500 rounded hover:shadow-inset-lg duration-300 transition active:bg-zinc-700 mt-auto text-white">
+				Reserve comigo
+			</a>		
+		</div>
+	</div>
+</section>
+
+
+<section>
+	<div class="relative after:absolute after:h-2.5 after:bg-zinc-400 after:right-0 after:left-1/2 after:bottom-0 mb-16">
+		<div class="container relative">
+			<h2 class="uppercase text-3xl sm:text-xl font-bold font-playfairSC text-white pb-6 border-b-[10px] border-zinc-400 ml-[25%] sm:m-0">LOCALIZAÇÃO</h2>
+		</div>
+	</div>
+	<div class="">
+		<iframe class="aspect-video w-full" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3894.3924547058905!2d-38.02667112438462!3d-12.556353751599147!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s%20Recanto%20dos%20P%C3%A1ssaros%20e%20Alquimia%20Hospedaria%E2%80%A8Loteamento%20Quintas%20do%20Castelo%20da%20Torre%2C%20rua%201%2C%20!5e0!3m2!1sen!2ses!4v1707353291700!5m2!1sen!2ses" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	</div>
+	<div class="container mt-6">
+		<div class="flex gap-10 my-5">
+			<div class="basis-20 shrink-0 sm:hidden">
+				<img src="assets/fonts/location.svg" alt="">
+			</div>
+			<div class="">
+				<div class="text-white font-playfairSC text-4xl sm:text-2xl mb-4">Estamos estrategicamente localizadas: </div>
+				<div class="text-lg sm:text-xs">
+					 Recanto dos Pássaros e Alquimia Hospedaria <br>Loteamento Quintas do Castelo da Torre, rua 1,<br> lote 8 e lote 5, Açu da Torre , Bahia 48288-000 <br>Brasila 
+				</div>
+			</div>
+		</div>
+		<div class="flex text-right sm:text-left gap-10 my-5">
+			<div class="">
+				<div class="text-white font-playfairSC text-4xl sm:text-2xl mb-4 sm:text-center">local seguro</div>
+				<div class="text-lg sm:text-xs">
+					 Hospedarias estão localizadas a apenas 3,5 km da Praia do Forte, em um local seguro e cercado pela exuberante natureza das Reservas Aruá e Sapiranga. Rodeadas pela Mata Atlântica nativa, proporcionam um ambiente propício para respirar, meditar e descansar, longe do estresse, do barulho e das pressões cotidianas. É o lugar ideal para desfrutar do famoso "Banho de Floresta" e recarregar as energias.
+				</div>
+			</div>
+			<div class="basis-30 shrink-0 sm:hidden">
+				<img src="assets/fonts/roots.svg" alt="">
+			</div>
+		</div>
+		<div class="flex gap-10 my-5">
+			<div class="basis-20 shrink-0 sm:hidden">
+				<img src="assets/fonts/trees-colored.svg" alt="">
+			</div>
+			<div class="">
+				<div class="text-white font-playfairSC text-4xl sm:text-2xl mb-4">Sobre Nosso Bairro </div>
+				<div class="text-lg sm:text-xs">
+					Loteamento Quintas do Castelo da Torre é o refúgio do barulho da Praia do Forte. Trata-se de um bairro residencial com lotes de 5 mil m² em uma área de preservação ambiental ZOR2. Nessa zona, é permitido o desmatamento de até 30% e o uso da área para construção de até 10%. Dessa forma, as casas estão cercadas por árvores nativas da Mata Atlântica, garantindo uma conexão íntima com a natureza. 
+				</div>
+			</div>
+		</div>
+		<div class="flex">
+			<div class="">
+				<div class="text-white font-playfairSC text-4xl sm:text-2xl ">
+					como chegar
+				</div>
+				<div class="text-lg sm:text-xs">
+					<p class="my-8">
+						Transporte de ônibus a 200m <br>
+						Pau Grande (nosso bairro) para Praia do Forte: 06:50 / 8:20 / 10:40 / 12:40 / 16:00 / 18:00 <br>
+						Praia do Forte para Pau Grande: 7:40 / 10:10 / 12:10 / 15:25 / 17:20 / 18.00 <br>
+						
+					</p>
+					<p class="my-8">
+						Transporte de ônibus a 600m: Malhadas – Praia do Forte – Malhadas : cada 30 min ate 24:00 <br>
+						Uber: aproximadamente R$30-40 <br>
+						Taxi : R$50-60 <br>
+						Moto-taxi : R$20 <br>
+						
+					</p>
+					<p class="my-8">
+						Do Aeroporto: 1. Ônibus para Praia do Forte; 2. Praia do Forte – Recanto dos Pássaros (veja acima) <br>
+						De Salvador: 1. Ônibus para Praia do Forte; 2. Praia do Forte – Recanto dos Pássaros (veja acima) <br>
+						
+					</p>
+				</div>
+			</div>
+			<div class="flex flex-col justify-around items-center basis-40 sm:hidden">
+				<img src="assets/fonts/bus.svg" alt="" class="w-full">
+				<img src="assets/fonts/plane.svg" alt="" class="w-full">
+			</div>
+
+		</div>
+	</div>
+</section>
+<section>
+	<div class="relative after:absolute after:h-2.5 after:bg-zinc-400 after:left-0 after:right-1/2 after:bottom-0 mb-16">
+		<div class="container relative">
+			<h2 class="uppercase text-5xl sm:text-3xl font-bold font-playfairSC text-white pb-6 border-b-[10px] border-zinc-400 mr-[25%] sm:m-0 text-right">Aproveitar diversas atividades</h2>
+		</div>
+	</div>
+	<div class="">
+		<img src="assets/img/map-full.png" alt="" class="w-full">
+	</div>
+	<div class="container my-10">
+		<h3 class="text-lg sm:text-xs mb-6 w-4/6 sm:w-full">Você pode aproveitar diversas atividades no local e nos arredores</h3>
+		<div class="flex justify-center items-center gap-8 flex-wrap">
+			<div class="flex justify-between items-center gap-4 basis-5/12 grow md:basis-full md:max-w-md">
+				<div class="basis-9 shrink-0">
+					<img src="assets/fonts/trees.svg" alt="">
+				</div>
+				<div class="grow">
+					<div class="text-xs">12 km da Praia de Imbassai</div>
+				</div>
+			</div>
+			<div class="flex justify-between items-center gap-4 basis-5/12 grow md:basis-full md:max-w-md">
+				<div class="basis-9 shrink-0">
+					<img src="assets/fonts/walk.svg" alt="">
+				</div>
+				<div class="grow">
+					<div class="text-xs">Desfrutar das atividades na Lagoa Aruá</div>
+				</div>
+			</div>
+			<div class="flex justify-between items-center gap-4 basis-5/12 grow md:basis-full md:max-w-md">
+				<div class="basis-9 shrink-0">
+					<img src="assets/fonts/trees.svg" alt="">
+				</div>
+				<div class="grow">
+					<div class="text-xs">5 km da Praia dos Piscinas Naturais Papa Gente y Praia do Lord</div>
+				</div>
+			</div>
+			<div class="flex justify-between items-center gap-4 basis-5/12 grow md:basis-full md:max-w-md">
+				<div class="basis-9 shrink-0">
+					<img src="assets/fonts/building.svg" alt="">
+				</div>
+				<div class="grow">
+					<div class="text-xs">Visitar único Castelo Medieval Garcia Dávila</div>
+				</div>
+			</div>
+
+			<div class="flex justify-between items-center gap-4 basis-5/12 grow md:basis-full md:max-w-md">
+				<div class="basis-9 shrink-0">
+					<img src="assets/fonts/walk.svg" alt="">
+				</div>
+				<div class="grow">
+					<div class="text-xs">Visitar fazendas de Mel Pólen Dourado e Fazenda Bicho Preguiça</div>
+				</div>
+			</div>
+			
+			<div class="flex justify-between items-center gap-4 basis-5/12 grow md:basis-full md:max-w-md">
+				<div class="basis-9 shrink-0">
+					<img src="assets/fonts/walk.svg" alt="">
+				</div>
+				<div class="grow">
+					<div class="text-xs">3,5 km da Praia do Forte</div>
+				</div>
+			</div>
+			
+			<div class="flex justify-between items-center gap-4 basis-5/12 grow md:basis-full md:max-w-md">
+				<div class="basis-9 shrink-0">
+					<img src="assets/fonts/tents.svg" alt="">
+				</div>
+				<div class="grow">
+					<div class="text-xs">Pé na Reserva Sapiranga</div>
+				</div>
+			</div>
+			<div class="flex justify-between items-center gap-4 basis-5/12 grow md:basis-full md:max-w-md">
+				<div class="basis-9 shrink-0">
+					<img src="assets/fonts/walk.svg" alt="">
+				</div>
+				<div class="grow">
+					<div class="text-xs">2 km da Lagoa Arua</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section>
+
+	<div class="relative after:absolute after:h-2.5 after:bg-zinc-400 after:right-0 after:left-1/2 after:bottom-0 mb-16">
+		<div class="container relative">
+			<h2 class="uppercase text-3xl sm:text-xl font-bold font-playfairSC text-white pb-6 border-b-[10px] border-zinc-400 ml-[25%] sm:m-0">Gallery</h2>
+		</div>
+	</div>
+	<div class="container mb-8">
+		<div class="grid grid-rows-3 grid-cols-3 gap-2 max-w-4xl m-auto md:hidden">
+			<div class="row-span-2 col-span-2">
+				<div class="ibg bg-center bg-cover w-full aspect-3/2">
+					<img src="assets/img/nature3.png" alt="">
+					
+				</div>
+			</div>
+
+			<div class="row-span-1 col-span-1">
+				<div class="ibg bg-center bg-cover w-full aspect-3/2">
+					<img src="assets/img/nature3.png" alt="">
+					
+				</div>
+			</div>
+
+			<div class="row-span-1 col-span-1">
+				<div class="ibg bg-center bg-cover w-full aspect-3/2">
+					<img src="assets/img/nature3.png" alt="">
+					
+				</div>
+			</div>
+
+			<div class="row-span-1 col-span-1">
+				<div class="ibg bg-center bg-cover w-full aspect-3/2">
+					<img src="assets/img/nature3.png" alt="">
+					
+				</div>
+			</div>
+
+			<div class="row-span-1 col-span-1">
+				<div class="ibg bg-center bg-cover w-full aspect-3/2">
+					<img src="assets/img/nature3.png" alt="">
+					
+				</div>
+			</div>
+
+			<div class="row-span-1 col-span-1">
+				<div class="ibg bg-center bg-cover w-full aspect-3/2">
+					<div class="cursor-pointer flex justify-center items-center  bg-black/50  h-full" data-modal-trigger data-modal-id="image-modal1">
+						<span class="text-3xl text-white lg:text-2xl border-b-2 pb-1">+45  photos</span>
+					</div>
+					<img src="assets/img/nature3.png" alt="">
+					
+				</div>
+			</div>
+		</div>
+		<div class="def-modal modal modal-bg" id="image-modal1">
+			<div class="def-modal__outer-container container">
+				<div class="def-modal__inner-container def-modal__inner-container--100">
+					<div class="def-modal__wrapper modal-window p-2 rounded-xl">
+						<div class="def-modal__top mb-2 px-2">
+							<div class="def-modal__title text-2xl">
+								<span class="modal-title">Images</span>
+							</div>
+							<div class="group/cross relative h-[30px] w-[35px] flex-col justify-center flex cursor-pointer modal-cross">
+								
+								<div class="bg-gray-400 h-[4px] w-full transition duration-300 rounded-sm ease-out-wobble group-hover/cross:scale-x-75 translate-y-[2px] rotate-[135deg]"></div>
+								<div class="bg-gray-400 h-[4px] w-full transition duration-300 rounded-sm ease-out-wobble group-hover/cross:scale-x-75 translate-y-[-2px] rotate-[-135deg]"></div>
+							</div>
+						</div>
+						<div class="def-modal__content-wrapper def-modal-class-name modal-content-wrapper">
+							<div class="image-slider-modal mx-2 def-slider leading-[0] rounded overflow-hidden">
+								<div class="">
+									<div class="w-full">
+										<img src="assets/img/nature1.png" alt="" class="w-full">
+										
+									</div>
+								</div>
+
+								<div class="">
+									<div class="w-full">
+										<img src="assets/img/nature2.png" alt="" class="w-full">
+										
+									</div>
+								</div>
+
+								<div class="">
+									<div class="w-full">
+										<img src="assets/img/nature3.png" alt="" class="w-full">
+										
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>  
+			</div>
+		</div>
+		<div class="image-preview-slider hidden md:block">
+			
+			<div class="image-preview-slider-main px-2 def-slider leading-[0] pb-2">
+				<div class="">
+					<div class="ibg bg-center bg-cover w-full aspect-3/2">
+						<img src="assets/img/nature3.png" alt="">
+						
+					</div>
+				</div>
+
+				<div class="">
+					<div class="ibg bg-center bg-cover w-full aspect-3/2">
+						<img src="assets/img/nature3.png" alt="">
+						
+					</div>
+				</div>
+
+				<div class="">
+					<div class="ibg bg-center bg-cover w-full aspect-3/2">
+						<img src="assets/img/nature3.png" alt="">
+						
+					</div>
+				</div>
+
+				<div class="">
+					<div class="ibg bg-center bg-cover w-full aspect-3/2">
+						<img src="assets/img/nature3.png" alt="">
+						
+					</div>
+				</div>
+			</div>
+			<div class="image-preview-slider-nav relative def-slider leading-[0]">
+				<div class="px-2">
+					<div class="ibg bg-center bg-cover w-full aspect-3/2">
+						<img src="assets/img/nature3.png" alt="">
+						
+					</div>
+				</div>
+
+				<div class="px-2">
+					<div class="ibg bg-center bg-cover w-full aspect-3/2">
+						<img src="assets/img/nature3.png" alt="">
+						
+					</div>
+				</div>
+
+				<div class="px-2">
+					<div class="ibg bg-center bg-cover w-full aspect-3/2">
+						<img src="assets/img/nature3.png" alt="">
+						
+					</div>
+				</div>
+
+				<div class="px-2">
+					<div class="ibg bg-center bg-cover w-full aspect-3/2">
+						<img src="assets/img/nature3.png" alt="">
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>	
+<footer class="relative">
+	<div class="text-white">
+		<div class="flex flex-col min-h-[calc(100vh_-_120px)]">
+			<div class="bg-neutral-400 py-2">
+				
+				<div class="container grid grid-cols-10 grid-rows-3 sm:grid-rows-5">
+					<div class="col-span-3 row-span-3 xl:row-span-2 xl:row-start-2 lg:hidden flex justify-end items-center pr-10">
+						<div class="w-full max-w-xs lg:max-w-[120px]">
+							<img src="assets/img/logo-large.png" alt="" class="w-full">
+						</div>
+					</div>
+					<div class="col-span-5 xl:col-span-8 sm:col-span-10 row-span-1 flex gap-5 justify-between items-center font-rum text-2xl md:text-lg xsm:text-xs text-center pb-1">
+						<a href="" class="hover-pulse">Aviso legal</a>
+						<div class="">
+							•
+						</div>
+						<a href="" class="hover-pulse">Politica de cookies</a>
+						<div class="">
+							•
+						</div>
+						<a href="" class="hover-pulse">Politica de privacidad</a>
+					</div>
+
+					<div class="col-span-2 sm:col-span-3 sm:col-start-8 xsm:col-span-10 row-span-1 flex justify-center items-center gap-3 text-xl">
+						<a href class="bg-zinc-500 hover-pulse rounded-full w-8 h-8 flex justify-center items-center">
+							<i class="fa-brands fa-facebook-f"></i>
+						</a>
+						<a href class="bg-zinc-500 hover-pulse rounded-full w-8 h-8 flex justify-center items-center">
+							<i class="fa-brands fa-instagram"></i>
+						</a>
+					</div>
+					<div class="col-span-3 lg:col-span-5 sm:col-span-7 sm:row-start-2 xsm:row-span-3 xsm:col-span-10 row-span-2 flex flex-col justify-around items-center text-center">
+						<div class="mb-2 text-4xl sm:text-2xl font-playfairSC font-bold">+55 71 987990700</div>
+						<div class="mb-2 ">alquimiahospedaria@gmail.com</div>
+					</div>
+					<div class="col-span-4 lg:col-span-5 sm:col-span-10 row-span-2 pl-3">
+						<div class="mb-2 ">© Recanto dos Pássaros e Alquimia Hospedaria <br> Loteamento Quintas do Castelo da Torre, rua 1, lote 8 e lote 5, <br> Açu da Torre , Bahia 48288-000 <br> Brasil All rights reserved.  CNPJ 41.158322/0001-40 <br> OKSANA VALENTINOVNA
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="ibg bg-cover bg-center grow -z-10">
+				<img src="assets/img/footer-bg.png" alt="">
+			</div>
+			
+			<div class="bg-neutral-400  text-center">
+				<div class="py-6 text-center">
+					Powered by Marmadot studio
+				</div>
+			</div>
+			
+		</div>
+	</div>
+
+
+
+	
+</footer>
+</body>
+
+</html>

@@ -30,7 +30,77 @@
 	.hover-pulse{
 		@apply hover:drop-shadow ease-in-out duration-300 hover:scale-[0.95] transition;
 	}
+	.block-title{
+		@apply uppercase text-5xl sm:text-3xl font-bold font-playfairSC text-white;
+	}
 
 }
 
 
+.feedback-form{
+	.container{
+		margin: 0;
+		padding: 0;
+		width: auto;
+		max-width: 100% !important;
+	}
+	.field{
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 1rem;
+		label{
+			font-size: 14px;
+			margin-bottom: 4px;
+		}
+		em{
+			color: tomato;
+			opacity: 0;
+		}
+		input:focus, textarea:focus{
+			outline: #ccc auto 2px;
+		}
+		.info-tip{
+			font-size: 12px;
+			color: tomato;
+			opacity: 0;
+		}
+		&:has([aria-invalid="true"]){
+			em{
+				opacity: 1;
+			}
+			.info-tip{
+				opacity: 1;
+			}
+		}
+	}
+	input, textarea{
+		width: 100%;
+	}
+	textarea{
+		resize: none;
+	}
+	.field:has(input[type="submit"]){
+		display: block;
+		@media screen and (max-width: 768px) {
+			text-align: center;
+		}
+	}
+	input[type="submit"]{
+		display: inline;
+		background: #8eb4c1;
+		border: none;
+		color: #fff;
+		outline: none !important;
+		padding: 10px 15px;
+		border-radius: 3px;
+		cursor: pointer;
+		transition: all 0.2s;
+		width: auto;
+		&:hover{
+			filter: brightness(0.9);
+		}
+		&:focus{
+			filter: brightness(0.8);
+		}
+	}
+}

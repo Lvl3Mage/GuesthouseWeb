@@ -34,6 +34,30 @@
 		@apply uppercase text-5xl sm:text-3xl font-bold font-playfairSC text-white;
 	}
 
+	.def-text{
+		h1{
+			@apply text-5xl sm:text-3xl font-bold font-playfairSC text-white mb-2;
+		}
+		h2{
+			@apply text-4xl sm:text-2xl font-bold font-playfairSC text-white mb-2;
+		}
+		h3, h4, h5, h6{
+			@apply text-3xl sm:text-xl font-bold font-playfairSC text-white mb-2;
+		}
+		p{
+			@apply my-5;
+		}
+		ul{
+			@apply list-disc;
+		}
+		ol{
+			@apply list-decimal;
+		}
+		li{
+			@apply ml-6 pl-2;
+		}
+	}
+
 }
 
 

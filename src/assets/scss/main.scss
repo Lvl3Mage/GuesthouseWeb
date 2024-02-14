@@ -31,7 +31,7 @@
 		@apply hover:drop-shadow ease-in-out duration-300 hover:scale-[0.95] transition;
 	}
 	.block-title{
-		@apply uppercase text-5xl sm:text-3xl font-bold font-playfairSC text-white;
+		@apply uppercase text-5xl sm:text-3xl font-bold font-playfairSC text-amber-400;
 	}
 
 	.def-text{

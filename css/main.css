@@ -1741,6 +1741,9 @@ video {
 .bg-center{
   background-position: center;
 }
+.bg-top{
+  background-position: top;
+}
 .object-cover{
   -o-object-fit: cover;
      object-fit: cover;

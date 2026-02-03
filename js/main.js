@@ -88,7 +88,6 @@ $(document).on('click', '[data-modal-trigger]', function (event) {
   // 	}
   // }
 });
-
 $(document).on('mousedown touchstart', '.modal-bg, .modal-cross', function (event) {
   $("body").css("overflow", "visible");
   var modal = $(this).closest(".modal");
